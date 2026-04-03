@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste des Livres</title>
+</head>
+<body>
+    <h1>Liste des Livres</h1>
+    <a href="{% url 'livre_add' %}">Ajouter un Livre</a> | <a href="{% url 'chatbot' %}">Chatbot</a>
+    <ul>
+    {% for livre in livres %}
+        <li>
+            {{ livre.titre }} par {{ livre.auteur }} ({{ livre.annee_publication }}) - {{ livre.statut }}
+            <a href="{% url 'livre_edit' livre.pk %}">Modifier</a>
+            <a href="{% url 'livre_delete' livre.pk %}">Supprimer</a>
+        </li>
+    {% empty %}
+        <!-- Examples for testing -->
+        <li>Exemple: "Le Petit Prince" par Antoine de Saint-Exupéry (1943) - disponible <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
+        <li>Exemple: "1984" par George Orwell (1949) - emprunté <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
+        <li>Exemple: "Harry Potter à l'école des sorciers" par J.K. Rowling (1997) - réservé <a href="#">Modifier</a> <a href="#">Supprimer</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

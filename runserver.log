@@ -1,0 +1,35 @@
+nohup: les entrées sont ignorées
+Watching for file changes with StatReloader
+[03/Apr/2026 16:22:09] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[03/Apr/2026 16:22:22] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2472
+[03/Apr/2026 16:22:29] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+Not Found: /favicon.ico
+[03/Apr/2026 16:22:29] "GET /favicon.ico HTTP/1.1" 404 2361
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[03/Apr/2026 16:22:29] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2472
+[03/Apr/2026 16:23:57] "POST /livres/chatbot/ HTTP/1.1" 200 1041
+[03/Apr/2026 16:24:33] "POST /livres/chatbot/ HTTP/1.1" 200 543
+[03/Apr/2026 16:25:42] "POST /livres/chatbot/ HTTP/1.1" 200 137
+[03/Apr/2026 16:26:39] "POST /livres/chatbot/ HTTP/1.1" 200 1213
+[03/Apr/2026 16:27:12] "POST /livres/chatbot/ HTTP/1.1" 200 375
+/var/www/html/smartchat/livres/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 03, 2026 - 16:21:58
+Django version 6.0.3, using settings 'smartchat.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Watching for file changes with StatReloader
+[03/Apr/2026 17:59:27] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:28] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:28] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:28] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:34] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:34] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:34] "GET /livres/chatbot/ HTTP/1.1" 200 1682
+[03/Apr/2026 17:59:34] "GET /livres/chatbot/ HTTP/1.1" 200 1682
